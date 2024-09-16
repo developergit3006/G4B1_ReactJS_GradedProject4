@@ -1,0 +1,78 @@
+.movie-card {
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    border: 0.1px solid black;
+    width: 245px;
+    height: 400px;
+    margin-inline: 1rem;
+    margin-block: 1rem;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    position: relative;
+  }
+  
+  .movie-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .movie-card__image {
+    width: 100%;
+    height: 300px;
+    object-fit: fill;
+  }
+  
+  .movie-card__details {
+    padding: 1rem;
+  }
+  
+  .movie-card__title {
+    margin: 0 0 8px 2px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 500;
+    position: absolute;
+    bottom: 50px;
+    left: 10px;
+  }
+  
+  .Favourites {
+    float: center;
+    background: none;
+    border: none;
+    font-size: 0.9rem;
+    color: #888;
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+  }
+  
+  .custom-toast {
+    background: white;
+    color: black;
+  }
+  
+  .success-toast {
+    background: white;
+    color: black;
+  }
+  
+  .error-toast {
+    background: white;
+    color: black;
+  }
+  
+  .custom-toast .success-icon {
+    color: #28a745;
+    font-size: 24px;
+    margin-right: 5px;
+  }
+  
+  .custom-toast .error-icon {
+    color: red;
+    font-size: 24px;
+    margin-right: 5px;
+  }
